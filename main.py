@@ -17,7 +17,7 @@ def main(start, finish):
         if is_valid(s, start, finish):
             return int(s)
         else:
-            print(f"А может быть все-таки введем целое число {start} до {finish}?")
+            print(f"А может быть все-таки введем целое число от {start} до {finish}?")
 
 
 # Основной цикл программы
